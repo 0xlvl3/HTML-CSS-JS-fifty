@@ -63,3 +63,8 @@ function highlightTag(tag) {
 function unhighlightTag(tag) {
   tag.classList.remove("highlight");
 }
+
+const myTable = [];
+const rows = 6;
+const columns = 3;
+let counter = 0;
