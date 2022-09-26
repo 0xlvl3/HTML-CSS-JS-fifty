@@ -34,6 +34,7 @@ async function getData() {
   });
 }
 
+// searching for a specific string in a list
 function filterData(searchTerm) {
   listItems.forEach((item) => {
     if (item.innerText.toLowerCase().includes(searchTerm.toLowerCase())) {
